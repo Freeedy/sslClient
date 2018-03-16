@@ -128,7 +128,7 @@ int main(int count, char *strings[]) {
 
   if ( count < 4 )
     {
-        printf(YEL"usage: %s https<hostname> <port(443 or 8443)><requestBody>\n"RESET);
+        printf(YEL"usage: %s <hostname> <port(443 or 8443)><requestBody>\n"RESET);
         exit(0);
     }
 
