@@ -2,7 +2,7 @@
 
 This sample will be helpfull to  send GET request to the  SSL/TLS secured host . 
 
-## Compiel 
+## Compile
 
 gcc -o sslClient sslclient.c -lssl -lcrypto 
 
